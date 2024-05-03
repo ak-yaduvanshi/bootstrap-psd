@@ -1,0 +1,33 @@
+*,::after,::before{margin: 0;box-sizing: border-box;}
+img{vertical-align: bottom;}
+label{display: inline-block;}
+/* a{text-decoration: none;} */
+/* ul{list-style: none;padding: 0;} */
+button{padding: 0;cursor: pointer;}
+:disabled{cursor: not-allowed;}
+iframe{border: none;}
+
+html{
+    --ff: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --grad:linear-gradient(49deg,#a21af0,#ff0072);
+}
+
+header{
+    background: url(img/header.webp)no-repeat top/cover;
+}
+.wrap-1,.wrap-9{background: url(img/world-map.webp) center no-repeat;}
+h2{color: #484848;}
+.btn{transition: all .3s ease;position: relative;}
+.btn:hover{box-shadow: 1px 10px rgb(221, 115, 133);transform: translate(5px,-10px);}
+.wrap-1 ul li:hover,.wrap-5 ul li:hover{background: #f42267;border-radius: 10px;}
+
+.wrap-2{background: #4b2d7f;}
+
+.wrap-3{background: url(img/bg.webp)no-repeat top/cover;}
+.wrap-5{background: #f1f1f1;}
+.wrap-7{background: url(img/black-shape.webp)no-repeat top/cover;}
+.wrap-8{background: url(img/pink-shape.webp)no-repeat top/cover;}
+
+@media (min-width:768px) {
+    .custom-fs a{font-size: 50px !important;}
+}
